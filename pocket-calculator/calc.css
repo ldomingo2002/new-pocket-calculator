@@ -15,9 +15,9 @@ button:hover{
 }
 
 .calc{
-margin-left: 450px;
-margin-right: 584px;
-margin-top: 0.5em;
+margin-left: 500px;
+margin-right: 534px;
+margin-top: 100px;
 border-style: solid;
 }
 
@@ -27,11 +27,6 @@ border-style: solid;
   width: 285px;
   padding-right: 15px;
   padding-top: 15px;
-  margin-left: 450px;
-  margin-right: 200px;
-  margin-top: 160px;
-  border-style: solid;
-  border-color: black;
-  font-size: 30px;
-  text-align: right;
+  text-align: center;
+
 }

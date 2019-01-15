@@ -1,5 +1,6 @@
 
 function ac(){
+let clear = ")";
 
 let p = document.getElementById('display').innerHTML = "0";
 
