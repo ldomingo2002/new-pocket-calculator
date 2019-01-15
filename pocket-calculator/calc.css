@@ -11,17 +11,20 @@ button:hover{
 }
 
 .zero{
-  width: 10.8em;
+  width: 10.8em
 }
 
 .calc{
 margin-left: 450px;
-margin-right: 200px;
-margin-top: 0.5em
+margin-right: 584px;
+margin-top: 0.5em;
+border-style: solid;
 }
 
 
 #display{
+  height: 70px;
+  width: 285px;
   padding-right: 15px;
   padding-top: 15px;
   margin-left: 450px;
@@ -29,8 +32,6 @@ margin-top: 0.5em
   margin-top: 160px;
   border-style: solid;
   border-color: black;
-  font-size: 34px;
+  font-size: 30px;
   text-align: right;
-  height: 55px;
-  width: 285px;
 }

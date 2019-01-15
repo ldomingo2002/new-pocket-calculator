@@ -11,38 +11,51 @@
 </head>
 
 <body>
-<div id = "display">
-    <input> </input>
-</div>
 
 
+<form class = "calc">
+<table>
+<tbody>
+  <tr id = "display">
+    </tr>
 
-<div class = "calc">
-  <button onclick = "clear();"> AC </button>
-  <button onclick = "negation();"> +/- </button>
-  <button onclick = "percentage();"> % </button>
-  <button onclick = "division();"> / </button>
-<br/>
-  <button onclick = "seven();"> 7 </button>
-  <button onclick = "eight();"> 8 </button>
-  <button onclick = "nine();"> 9 </button>
-  <button onclick = "multiplication();"> x </button>
-<br/>
-  <button onclick = "four();"> 4 </button>
-  <button onclick = "five();"> 5 </button>
-  <button onclick = "six();"> 6 </button>
-  <button onclick = "subtraction();"> - </button>
-<br/>
-  <button onclick = "one();"> 1 </button>
-  <button onclick = "two();"> 2 </button>
-  <button onclick = "three();"> 3 </button>
-  <button onclick = "addition();"> + </button>
-<br/>
+    <tr>
+    <td> <button onclick = "ac();"> AC </button> </td>
+    <td> <button onclick = "negation();"> +/- </button> </td>
+    <td> <button onclick = "percentage();"> % </button> </td>
+    <td> <button onclick = "division();"> / </button> </td>
+    </tr>
 
-  <button onclick = "zero();" class = "zero"> 0 </button>
-  <button onclick = "decimal();"> . </button>
-  <button onclick = "equals();"> = </button>
-</div>
+    <tr>
+    <td> <button onclick = "seven();"> 7 </button> </td>
+    <td> <button onclick = "eight();"> 8 </button> </td>
+    <td> <button onclick = "nine();"> 9 </button> </td>
+    <td> <button onclick = "multiplication();"> x </button> </td>
+    </tr>
+
+    <tr>
+    <td> <button onclick = "four();"> 4 </button> </td>
+    <td> <button onclick = "five();"> 5 </button> </td>
+    <td> <button onclick = "six();"> 6 </button> </td>
+    <td> <button onclick = "subtraction();"> - </button> </td>
+    </tr>
+
+    <tr>
+    <td> <button onclick = "one();"> 1 </button> </td>
+    <td> <button onclick = "two();"> 2 </button> </td>
+    <td> <button onclick = "three();"> 3 </button> </td>
+    <td> <button onclick = "addition();"> + </button> </td>
+    </tr>
+
+    <tr>
+    <td colspan = "2" > <button onclick = "zero();" class = "zero"> 0 </button> </td>
+    <td> <button onclick = "decimal();"> . </button> </td>
+    <td> <button onclick = "equals();"> = </button> </td>
+    </tr>
+
+</tbody>
+  </table>
+</form>
 
   </body>
 </html>
